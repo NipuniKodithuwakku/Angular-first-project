@@ -2,17 +2,7 @@ import { Component } from "@angular/core";
 
 @Component({
   selector: "app-root",
-  template: `<div>
-    <table>
-      <tr>
-        <td [attr.colspan]="3">three</td>
-      </tr>
-      <tr>
-        <td>1</td>
-        <td>2</td>
-        <td>3</td>
-      </tr>
-    </table>
-  </div>`,
+  templateUrl: "./app.component.html",
+  styleUrls: [`./app.component.css`],
 })
 export class AppComponent {}
